@@ -16,8 +16,8 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test",
-    "lint": "tsdx lint",
-    "format": "tsdx lint --fix",
+    "lint": "tsdx lint src test",
+    "format": "tsdx lint src test --fix",
     "prepare": "tsdx build"
   },
   "peerDependencies": {},
