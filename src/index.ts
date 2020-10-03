@@ -3,7 +3,7 @@ import { HtmlTags, LoadContext, Plugin } from '@docusaurus/types';
 export default function pluginGoatcounter({
   siteConfig: { themeConfig },
 }: LoadContext): Plugin<void> {
-  const { goatcounter } = themeConfig || {};
+  const { goatcounter }: any = themeConfig || {};
 
   if (!goatcounter) {
     throw new Error(
@@ -11,7 +11,7 @@ export default function pluginGoatcounter({
     );
   }
 
-  const { code } = goatcounter;
+  const code = goatcounter?.code;
 
   if (!code) {
     throw new Error(
