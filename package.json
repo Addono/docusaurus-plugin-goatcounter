@@ -34,6 +34,9 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
+  "release": {
+    "branches": [ "main" ]
+  },
   "module": "dist/docusaurus-plugin-goatcounter.esm.js",
   "devDependencies": {
     "@docusaurus/types": "^2.0.0-alpha.65",
