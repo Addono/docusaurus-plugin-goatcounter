@@ -17,12 +17,13 @@
     "build": "tsdx build",
     "test": "tsdx test",
     "lint": "tsdx lint",
+    "format": "tsdx lint --fix",
     "prepare": "tsdx build"
   },
   "peerDependencies": {},
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint"
+      "pre-commit": "yarn format"
     }
   },
   "prettier": {
