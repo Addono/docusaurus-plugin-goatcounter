@@ -33,6 +33,7 @@
   },
   "module": "dist/docusaurus-plugin-goatcounter.esm.js",
   "devDependencies": {
+    "@docusaurus/types": "^2.0.0-alpha.37",
     "husky": "^4.3.0",
     "tsdx": "^0.14.0",
     "tslib": "^2.0.1",
