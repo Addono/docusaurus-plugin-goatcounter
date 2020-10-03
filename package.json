@@ -24,7 +24,8 @@
   "peerDependencies": {},
   "husky": {
     "hooks": {
-      "pre-commit": "yarn format"
+      "pre-commit": "yarn format",
+      "pre-push": "yarn test"
     }
   },
   "prettier": {
