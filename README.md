@@ -1,27 +1,53 @@
-# TSDX Bootstrap
+# Docusausus GoatCounter Plugin
 
-This project was bootstrapped with [TSDX](https://github.com/jaredpalmer/tsdx).
+## 📝 Table of Contents
 
-## Local Development
+- [About](#about)
+- [Install](#install)
+- [Getting Started](#getting_started)
 
-Below is a list of commands you will probably find useful.
+##🧐 About <a name = "about"></a>
 
-### `npm start` or `yarn start`
+This plugin adds GoatCounter web analytics to your Docusaurus v2 project.
 
-Runs the project in development/watch mode. Your project will be rebuilt upon changes. TSDX has a special logger for you convenience. Error messages are pretty printed and formatted for compatibility VS Code's Problems tab.
+## 🚀 Install <a name = "install"></a>
 
-<img src="https://user-images.githubusercontent.com/4060187/52168303-574d3a00-26f6-11e9-9f3b-71dbec9ebfcb.gif" width="600" />
+First, add the plugin as a dependency to your project.
 
-Your library will be rebuilt if you make edits.
+```bash
+# Yarn
+yarn add docusaurus-plugin-goatcounter
 
-### `npm run build` or `yarn build`
+# npm
+npm install docusaurus-plugin-goatcounter
+```
 
-Bundles the package to the `dist` folder.
-The package is optimized and bundled with Rollup into multiple formats (CommonJS, UMD, and ES Module).
+Then, configure Docusaurus to use your plugin by adding the following to `docusaurus.config.js`. Replace `your-goatcounter-code` with the identifier of your GoatCounter instance. E.g. if you acecss GoatCounter at https://acmecorp.goatcounter.com, then your code is `acmecorp`.
 
-<img src="https://user-images.githubusercontent.com/4060187/52168322-a98e5b00-26f6-11e9-8cf6-222d716b75ef.gif" width="600" />
+```js
+module.exports = {
+  plugins: [ 'docusaurus-plugin-goatcounter', ],
+  themeConfig: {
+    goatcounter: {
+      code: 'your-goatcounter-code',
+    },
+  },
+}
+```
 
-### `npm test` or `yarn test`
 
-Runs the test watcher (Jest) in an interactive mode.
-By default, runs tests related to files changed since the last commit.
+## 🏁 Getting Started <a name = "getting_started"></a>
+
+Below is a list of commands you can use for development.
+
+### `yarn start`
+
+Runs the project in development/watch mode.
+
+### `yarn build`
+
+Bundles the package to the `dist` folder. 
+
+### `yarn test`
+
+Runs the test watcher (Jest) in an interactive mode. By default, runs tests related to files changed since the last commit.
