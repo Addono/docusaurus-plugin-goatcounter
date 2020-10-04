@@ -7,6 +7,7 @@
 [![npm](https://img.shields.io/npm/v/docusaurus-plugin-goatcounter?style=flat-square)][https://www.npmjs.com/package/container-registry-proxy]
 [![GitHub stars](https://img.shields.io/github/stars/Addono/docusaurus-plugin-goatcounter?style=flat-square)][gh-stars]<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## 📝 Table of Contents
@@ -36,15 +37,14 @@ Then, configure Docusaurus to use your plugin by adding the following to `docusa
 
 ```js
 module.exports = {
-  plugins: [ 'docusaurus-plugin-goatcounter', ],
+  plugins: ['docusaurus-plugin-goatcounter'],
   themeConfig: {
     goatcounter: {
       code: 'your-goatcounter-code',
     },
   },
-}
+};
 ```
-
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -56,7 +56,7 @@ Runs the project in development/watch mode.
 
 ### `yarn build`
 
-Bundles the package to the `dist` folder. 
+Bundles the package to the `dist` folder.
 
 ### `yarn test`
 
@@ -77,6 +77,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
