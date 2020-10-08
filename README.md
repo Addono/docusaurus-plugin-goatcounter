@@ -3,9 +3,9 @@
 [![License](https://img.shields.io/github/license/Addono/docusaurus-plugin-goatcounter?style=flat-square)](https://github.com/Addono/docusaurus-plugin-goatcounter/blob/master/LICENSE)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://img.shields.io/badge/project%20status-Active-greengrass?style=flat-square)](https://www.repostatus.org/#active)
 [![Depfu](https://img.shields.io/depfu/Addono/docusaurus-plugin-goatcounter?style=flat-square)](https://depfu.com/github/Addono/container-registry-proxy)
-[![npm](https://img.shields.io/npm/dt/docusaurus-plugin-goatcounter?style=flat-square)][https://www.npmjs.com/package/container-registry-proxy]
-[![npm](https://img.shields.io/npm/v/docusaurus-plugin-goatcounter?style=flat-square)][https://www.npmjs.com/package/container-registry-proxy]
-[![GitHub stars](https://img.shields.io/github/stars/Addono/docusaurus-plugin-goatcounter?style=flat-square)][gh-stars]<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![npm](https://img.shields.io/npm/dt/docusaurus-plugin-goatcounter?style=flat-square)](https://www.npmjs.com/package/container-registry-proxy)
+[![npm](https://img.shields.io/npm/v/docusaurus-plugin-goatcounter?style=flat-square)](https://www.npmjs.com/package/container-registry-proxy)
+[![GitHub stars](https://img.shields.io/github/stars/Addono/docusaurus-plugin-goatcounter?style=flat-square)](https://github.com/Addono/docusaurus-plugin-goatcounter/stargazers)<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
