@@ -9,6 +9,9 @@ repository:
 
   # A URL with more information about the repository
   homepage: https://github.com/Addono/docusaurus-plugin-goatcounter
+  
+  # A comma-separated list of topics to set on the repository
+  topics: docusaurus, docusaurus-v2, plugin, docusaurus-plugin, goatcounter, analytics, privacy
 
   # Either `true` to make the repository private, or `false` to make it public.
   private: false
