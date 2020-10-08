@@ -17,7 +17,7 @@
 - [Getting Started](#getting_started)
 - [Contributors](#contributors)
 
-##🧐 About <a name = "about"></a>
+## 🧐 About <a name = "about"></a>
 
 This plugin adds GoatCounter web analytics to your Docusaurus v2 project.
 
