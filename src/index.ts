@@ -1,8 +1,6 @@
 import { HtmlTags, LoadContext, Plugin } from '@docusaurus/types';
 
-export default function pluginGoatcounter({
-  siteConfig: { themeConfig },
-}: LoadContext): Plugin<void> {
+const plugin = ({ siteConfig: { themeConfig } }: LoadContext): Plugin<void> => {
   const { goatcounter }: any = themeConfig || {};
 
   if (!goatcounter) {
@@ -55,4 +53,6 @@ export default function pluginGoatcounter({
     name: 'docusaurus-plugin-goatcounter',
     injectHtmlTags: isProd ? injectGoatcounterTags : undefined,
   };
-}
+};
+
+export default plugin;
