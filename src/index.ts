@@ -1,31 +1,32 @@
-import { HtmlTags, LoadContext, Plugin } from '@docusaurus/types'
+import {
+  HtmlTags,
+  LoadContext,
+  OptionValidationContext,
+  Plugin,
+  ValidationResult
+} from '@docusaurus/types'
+import { ValidationError } from '@hapi/joi'
+import PluginOptionSchema from './pluginOptionSchema'
+import { PluginOptions } from './types'
 
-const plugin = ({ siteConfig: { themeConfig } }: LoadContext): Plugin<void> => {
-  const { goatcounter }: any = themeConfig || {}
+export function validateOptions({
+  validate,
+  options
+}: OptionValidationContext<PluginOptions, ValidationError>): ValidationResult<
+  PluginOptions,
+  ValidationError
+> {
+  const validatedOptions = validate(PluginOptionSchema, options)
+  return validatedOptions
+}
 
-  if (!goatcounter) {
-    throw new Error(
-      `You need to specify 'goatcounter' object in 'themeConfig' with 'code' field in it to use docusaurus-plugin-goatcounter`
-    )
-  }
-
-  const code = goatcounter?.code
-
-  if (!code) {
-    throw new Error(
-      'You specified the `goatcounter` object in `themeConfig` but the `code` field was missing. ' +
-        'Please add it.'
-    )
-  }
-  if (typeof code !== 'string') {
-    throw new Error(
-      'You specified the `goatcounter` object in `themeConfig` but the `code` field should be a string.'
-    )
-  }
-
+const plugin = (
+  _context: LoadContext,
+  options: PluginOptions
+): Plugin<void, typeof PluginOptionSchema> => {
   const isProd = process.env.NODE_ENV === 'production'
 
-  const analyticsDomain = `https://${code}.goatcounter.com`
+  const analyticsDomain = `https://${options.code}.goatcounter.com`
 
   const injectGoatcounterTags = (): { headTags: HtmlTags } => {
     return {
