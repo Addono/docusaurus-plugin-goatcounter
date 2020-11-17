@@ -51,7 +51,7 @@
     "@docusaurus/types": "^2.0.0-alpha.65",
     "@semantic-release/git": "^9.0.0",
     "husky": "^4.3.0",
-    "semantic-release": "^17.2.2",
+    "semantic-release": "^17.2.3",
     "tsdx": "^0.14.1",
     "tslib": "^2.0.3",
     "typescript": "^4.0.5"
