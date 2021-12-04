@@ -46,6 +46,8 @@ module.exports = {
 };
 ```
 
+When building your website, make sure that `NODE_ENV=production`, as the plugin will avoid injecting the Goatcounter tag in development environments.
+
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
 Below is a list of commands you can use for development.
