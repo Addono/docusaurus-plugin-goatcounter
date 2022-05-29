@@ -19,7 +19,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-This plugin adds GoatCounter web analytics to your Docusaurus v2 project.
+This plugin adds GoatCounter web analytics to your Docusaurus v2 project. It has zero dependencies as the only thing it needs to do is include the tracking script in your build outputs.
 
 ## 🚀 Install <a name = "install"></a>
 
