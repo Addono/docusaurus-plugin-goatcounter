@@ -76,12 +76,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://aknapen.nl"><img src="https://avatars1.githubusercontent.com/u/15435678?v=4" width="100px;" alt=""/><br /><sub><b>Adriaan Knapen</b></sub></a><br /><a href="https://github.com/Addono/docusaurus-plugin-goatcounter/commits?author=Addono" title="Code">💻</a> <a href="#tool-Addono" title="Tools">🔧</a> <a href="https://github.com/Addono/docusaurus-plugin-goatcounter/commits?author=Addono" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://aknapen.nl"><img src="https://avatars1.githubusercontent.com/u/15435678?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Adriaan Knapen</b></sub></a><br /><a href="https://github.com/Addono/docusaurus-plugin-goatcounter/commits?author=Addono" title="Code">💻</a> <a href="#tool-Addono" title="Tools">🔧</a> <a href="https://github.com/Addono/docusaurus-plugin-goatcounter/commits?author=Addono" title="Documentation">📖</a> <a href="https://github.com/Addono/docusaurus-plugin-goatcounter/commits?author=Addono" title="Tests">⚠️</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-enable -->
+<!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
