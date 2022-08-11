@@ -5,8 +5,7 @@
 [![Depfu](https://img.shields.io/depfu/Addono/docusaurus-plugin-goatcounter?style=flat-square)](https://depfu.com/github/Addono/docusaurus-plugin-goatcounter)
 [![npm](https://img.shields.io/npm/dt/docusaurus-plugin-goatcounter?style=flat-square)](https://www.npmjs.com/package/docusaurus-plugin-goatcounter)
 [![npm](https://img.shields.io/npm/v/docusaurus-plugin-goatcounter?style=flat-square)](https://www.npmjs.com/package/docusaurus-plugin-goatcounter)
-[![GitHub stars](https://img.shields.io/github/stars/Addono/docusaurus-plugin-goatcounter?style=flat-square)](https://github.com/Addono/docusaurus-plugin-goatcounter/stargazers)
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![GitHub stars](https://img.shields.io/github/stars/Addono/docusaurus-plugin-goatcounter?style=flat-square)](https://github.com/Addono/docusaurus-plugin-goatcounter/stargazers)<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
