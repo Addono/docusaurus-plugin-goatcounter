@@ -889,10 +889,10 @@
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
-"@docusaurus/types@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@docusaurus/types/-/types-2.3.0.tgz#9695a768d3810c8a137a41d7a1116ac67d201ce5"
-  integrity sha512-c5C0nROxVFsgMAm4vWDB1LDv3v4K18Y8eVxazL3dEr7w+7kNLc5koWrW7fWmCnrbItnuTna4nLS2PcSZrkYidg==
+"@docusaurus/types@^2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@docusaurus/types/-/types-2.3.1.tgz#785ade2e0f4e35e1eb7fb0d04c27d11c3991a2e8"
+  integrity sha512-PREbIRhTaNNY042qmfSE372Jb7djZt+oVTZkoqHJ8eff8vOIc2zqqDqBVc5BhOfpZGPTrE078yy/torUEZy08A==
   dependencies:
     "@types/history" "^4.7.11"
     "@types/react" "*"
