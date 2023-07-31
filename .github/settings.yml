@@ -8,7 +8,7 @@ repository:
   description: Adds GoatCounter web analytics to Docusaurus
 
   # A URL with more information about the repository
-  homepage: https://github.com/Addono/docusaurus-plugin-goatcounter
+  homepage: https://www.npmjs.com/package/docusaurus-plugin-goatcounter
   
   # A comma-separated list of topics to set on the repository
   topics: docusaurus, docusaurus-v2, plugin, docusaurus-plugin, goatcounter, analytics, privacy
