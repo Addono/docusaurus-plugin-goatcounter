@@ -11,7 +11,7 @@
     "src"
   ],
   "engines": {
-    "node": ">=16"
+    "node": ">=20"
   },
   "scripts": {
     "start": "tsdx watch",
