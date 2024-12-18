@@ -1,7 +1,7 @@
 {
   "name": "docusaurus-plugin-goatcounter",
   "author": "Adriaan Knapen",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "license": "MIT",
   "repository": "https://github.com/Addono/docusaurus-plugin-goatcounter",
   "main": "dist/index.js",
