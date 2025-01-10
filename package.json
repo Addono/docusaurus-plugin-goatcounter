@@ -44,7 +44,7 @@
   "devDependencies": {
     "@docusaurus/types": "^3.6.3",
     "@semantic-release/git": "^10.0.1",
-    "@types/node": "^20.14.12",
+    "@types/node": "^22.10.5",
     "husky": "^9.1.7",
     "semantic-release": "^24.2.1",
     "tsdx": "^0.14.1",
