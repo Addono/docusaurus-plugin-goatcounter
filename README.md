@@ -46,7 +46,8 @@ module.exports = {
 };
 ```
 
-When building your website, make sure that `NODE_ENV=production`, as the plugin will avoid injecting the Goatcounter tag in development environments.
+> [!WARNING]
+> When building your website for production, set `NODE_ENV=production`. If not, the plugin will avoid injecting the Goatcounter tag as to prevent including non-production traffic.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
