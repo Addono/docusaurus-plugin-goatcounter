@@ -1,0 +1,26 @@
+version: 2
+
+updates:
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "GitHub Actions"
+      - "dependencies"
+
+  # Maintain dependencies for yarn
+  - package-ecosystem: "npm" # We need to specify npm, although we use yarn, see https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/configuration-options-for-dependency-updates#package-ecosystem
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    versioning-strategy: "increase"
+    labels:
+      - "yarn"
+      - "dependencies"
+    ignore:
+      # Ignore any newer version of Node types, since we will stay on
+      # Node 20 LTS for now
+      - dependency-name: "@types/node"
+        versions: [">=21"]
