@@ -42,7 +42,7 @@
   },
   "module": "dist/docusaurus-plugin-goatcounter.esm.js",
   "devDependencies": {
-    "@docusaurus/types": "^3.8.0",
+    "@docusaurus/types": "^3.8.1",
     "@semantic-release/git": "^10.0.1",
     "@types/node": "^20.17.57",
     "husky": "^9.1.7",
