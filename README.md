@@ -33,7 +33,7 @@ yarn add docusaurus-plugin-goatcounter
 npm install docusaurus-plugin-goatcounter
 ```
 
-Then, configure Docusaurus to use your plugin by adding the following to `docusaurus.config.js`. Replace `your-goatcounter-code` with the identifier of your GoatCounter instance. E.g. if you acecss GoatCounter at https://acmecorp.goatcounter.com, then your code is `acmecorp`.
+Then, configure Docusaurus to use your plugin by adding the following to `docusaurus.config.js`. Replace `your-goatcounter-code` with the identifier of your GoatCounter instance. E.g. if you access GoatCounter at https://acmecorp.goatcounter.com, then your code is `acmecorp`.
 
 ```js
 module.exports = {
