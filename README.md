@@ -19,7 +19,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-This plugin adds GoatCounter web analytics to your Docusaurus v2 project. It has zero dependencies as the only thing it needs to do is include the tracking script in your build outputs.
+This plugin adds GoatCounter web analytics to your Docusaurus v3 project. It has zero dependencies, the only thing this plugin does is including the tracking script in your production build outputs.
 
 ## 🚀 Install <a name = "install"></a>
 
@@ -47,7 +47,7 @@ module.exports = {
 ```
 
 > [!WARNING]
-> **When building your website for production**, set `NODE_ENV=production`. If not, the plugin will avoid injecting the Goatcounter tag as to prevent including non-production traffic.
+> **When building your website for production**, set `NODE_ENV=production`. **If not, the plugin will not inject the Goatcounter tag**, in order to prevent including non-production traffic in your Goatcounter statistics.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
