@@ -19,7 +19,7 @@
     "test": "tsdx test",
     "lint": "tsdx lint src test",
     "format": "tsdx lint src test --fix",
-    "prepare": "tsdx build && husky install"
+    "prepare": "tsdx build && husky"
   },
   "peerDependencies": {},
   "prettier": {
