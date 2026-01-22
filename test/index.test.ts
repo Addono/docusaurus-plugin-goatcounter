@@ -18,7 +18,7 @@ describe('pluginGoatcounter', () => {
 
     // Assert
     expect(handler).toThrowErrorMatchingInlineSnapshot(
-      `"You need to specify 'goatcounter' object in 'themeConfig' with 'code' field in it to use docusaurus-plugin-goatcounter"`
+      `[Error: You need to specify 'goatcounter' object in 'themeConfig' with 'code' field in it to use docusaurus-plugin-goatcounter]`
     );
   });
 
@@ -39,7 +39,7 @@ describe('pluginGoatcounter', () => {
 
     // Assert
     expect(handler).toThrowErrorMatchingInlineSnapshot(
-      `"You specified the \`goatcounter\` object in \`themeConfig\` but the \`code\` field was missing. Please add it."`
+      `[Error: You specified the \`goatcounter\` object in \`themeConfig\` but the \`code\` field was missing. Please add it.]`
     );
   });
 
@@ -60,7 +60,7 @@ describe('pluginGoatcounter', () => {
 
     // Assert
     expect(handler).toThrowErrorMatchingInlineSnapshot(
-      `"You specified the \`goatcounter\` object in \`themeConfig\` but the \`code\` field should be a string."`
+      `[Error: You specified the \`goatcounter\` object in \`themeConfig\` but the \`code\` field should be a string.]`
     );
   });
 
@@ -128,26 +128,26 @@ describe('pluginGoatcounter', () => {
       // Assert
       expect(result?.injectHtmlTags?.({ content: undefined }))
         .toMatchInlineSnapshot(`
-        Object {
-          "headTags": Array [
-            Object {
-              "attributes": Object {
-                "href": "https://foo.goatcounter.com",
-                "rel": "preconnect",
+          {
+            "headTags": [
+              {
+                "attributes": {
+                  "href": "https://foo.goatcounter.com",
+                  "rel": "preconnect",
+                },
+                "tagName": "link",
               },
-              "tagName": "link",
-            },
-            Object {
-              "attributes": Object {
-                "async": true,
-                "data-goatcounter": "https://foo.goatcounter.com/count",
-                "src": "//gc.zgo.at/count.js",
+              {
+                "attributes": {
+                  "async": true,
+                  "data-goatcounter": "https://foo.goatcounter.com/count",
+                  "src": "//gc.zgo.at/count.js",
+                },
+                "tagName": "script",
               },
-              "tagName": "script",
-            },
-          ],
-        }
-      `);
+            ],
+          }
+        `);
       expect(result.name).toBe('docusaurus-plugin-goatcounter');
     });
   });
