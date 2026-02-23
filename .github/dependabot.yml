@@ -20,7 +20,8 @@ updates:
       - "yarn"
       - "dependencies"
     ignore:
-      # Ignore any newer version of Node types, since we will stay on
-      # Node 20 LTS for now
+      # Ignore non-LTS versions of Node types (odd-numbered major versions)
+      # LTS versions are even-numbered: 18, 20, 22, 24, 26, etc.
       - dependency-name: "@types/node"
-        versions: [">=21"]
+        update-types: ["version-update:semver-major"]
+        versions: ["19.x", "21.x", "23.x", "25.x", "27.x", "29.x", "31.x"]
