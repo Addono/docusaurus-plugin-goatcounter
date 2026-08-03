@@ -1,0 +1,20 @@
+{
+  "name": "documentation-writer",
+  "destination": "skills/documentation-writer",
+  "generated_by": "scripts/sync-vendored-skills.py",
+  "upstream": {
+    "type": "github",
+    "repository": "github/awesome-copilot",
+    "path": "skills/documentation-writer",
+    "ref": "1168a39abaed3558ac5b65ac55145721976e37a3",
+    "track_branch": "main"
+  },
+  "license": {
+    "spdx_id": "MIT",
+    "copyright_owner": "GitHub, Inc."
+  },
+  "files": [
+    "SKILL.md"
+  ],
+  "allow_local_modifications": false
+}

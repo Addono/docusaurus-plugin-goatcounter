@@ -1,0 +1,23 @@
+name: docusaurus-plugin-goatcounter
+version: 1.0.0
+description: APM project for docusaurus-plugin-goatcounter
+author: Adriaan Knapen
+# Which agent platforms to deploy to.
+# Resolution order: --target flag > this field > auto-detect from filesystem.
+# Accepted values: agent-skills, antigravity, claude, codex, copilot, cursor, gemini, kiro, opencode, windsurf
+targets:
+  - claude
+  - codex
+  - copilot
+  - opencode
+  - antigravity
+dependencies:
+  apm:
+    - git: Addono/skills
+      skills:
+        - documentation-writer
+        - merge-dependabot-prs
+        - probot-settings
+  mcp: []
+includes: auto
+scripts: {}

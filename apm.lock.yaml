@@ -1,0 +1,366 @@
+lockfile_version: '1'
+generated_at: '2026-08-03T17:47:22.994327+00:00'
+apm_version: 0.27.0
+dependencies:
+- repo_url: addono/skills
+  materialization_repo_url: Addono/skills
+  name: addono-skills
+  host: github.com
+  resolved_commit: 3f5ebc96019585afc90b0cb7eb95062e6f7879e2
+  version: 1.0.0
+  package_type: skill_bundle
+  deployed_files:
+  - .agents/skills/documentation-writer
+  - .agents/skills/documentation-writer/ATTRIBUTION.md
+  - .agents/skills/documentation-writer/LICENSE.upstream
+  - .agents/skills/documentation-writer/SKILL.md
+  - .agents/skills/documentation-writer/VENDORED.json
+  - .agents/skills/merge-dependabot-prs
+  - .agents/skills/merge-dependabot-prs/SKILL.md
+  - .agents/skills/merge-dependabot-prs/references/merging.md
+  - .agents/skills/merge-dependabot-prs/references/reporting.md
+  - .agents/skills/merge-dependabot-prs/references/scope.md
+  - .agents/skills/merge-dependabot-prs/references/triage.md
+  - .agents/skills/probot-settings
+  - .agents/skills/probot-settings/SKILL.md
+  - .agents/skills/probot-settings/references/addono-examples.md
+  - .agents/skills/probot-settings/references/sections-and-gotchas.md
+  - .agents/skills/probot-settings/references/security.md
+  - .claude/skills/documentation-writer
+  - .claude/skills/documentation-writer/ATTRIBUTION.md
+  - .claude/skills/documentation-writer/LICENSE.upstream
+  - .claude/skills/documentation-writer/SKILL.md
+  - .claude/skills/documentation-writer/VENDORED.json
+  - .claude/skills/merge-dependabot-prs
+  - .claude/skills/merge-dependabot-prs/SKILL.md
+  - .claude/skills/merge-dependabot-prs/references/merging.md
+  - .claude/skills/merge-dependabot-prs/references/reporting.md
+  - .claude/skills/merge-dependabot-prs/references/scope.md
+  - .claude/skills/merge-dependabot-prs/references/triage.md
+  - .claude/skills/probot-settings
+  - .claude/skills/probot-settings/SKILL.md
+  - .claude/skills/probot-settings/references/addono-examples.md
+  - .claude/skills/probot-settings/references/sections-and-gotchas.md
+  - .claude/skills/probot-settings/references/security.md
+  deployed_file_hashes:
+    .agents/skills/documentation-writer/ATTRIBUTION.md: sha256:b6a6d5274005d7ed96873605c7f6bd7bb70aa672a187f2bd6bbad72efdee8971
+    .agents/skills/documentation-writer/LICENSE.upstream: sha256:e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823
+    .agents/skills/documentation-writer/SKILL.md: sha256:7e8244988c9f4eb63bf8c0edf160578544621eb96e5e51e2d848f1401c5de8f1
+    .agents/skills/documentation-writer/VENDORED.json: sha256:99ba922c8de54eaee7713bb7135cf837f8aff5c4cd4c2e7f18666c2d63da7eb3
+    .agents/skills/merge-dependabot-prs/SKILL.md: sha256:7cdd0d7eefaf48d161c78101875f2b23cd9e93e4718a032ab5441bd67d373207
+    .agents/skills/merge-dependabot-prs/references/merging.md: sha256:c08aed4474ed8cc2134f1aea5a20f34c700e0bb57a8e80051d98eb13d41f0652
+    .agents/skills/merge-dependabot-prs/references/reporting.md: sha256:1377d18cb879582944e216fa69fe556c86ce3eef829442c8cc79cb304c43c64f
+    .agents/skills/merge-dependabot-prs/references/scope.md: sha256:e5153e0402e0e8829455847a80ab15673785b850d81bb3672682ab3290a03414
+    .agents/skills/merge-dependabot-prs/references/triage.md: sha256:fdf0e9beb7007db6de9fc710add00f92c0322e45c8f0a7f5f982049399470fc3
+    .agents/skills/probot-settings/SKILL.md: sha256:685ed618e900ea27933bebe2e0fda94f62d1f2cbab128ad287e16b9a40b8feb5
+    .agents/skills/probot-settings/references/addono-examples.md: sha256:79af0a8269997dcfdb4a7626f7419e3abfe31660db76c56e99003933f7dc4570
+    .agents/skills/probot-settings/references/sections-and-gotchas.md: sha256:d2d6c88fa9ec1ed2942d08fc99d5609752ff5a2ec0cd046cdb0a904ed9b05d4b
+    .agents/skills/probot-settings/references/security.md: sha256:9c2a14cad2b61894b38e4e66fb2c46dc9c920ac633dac327bcedd427c05e2f4e
+    .claude/skills/documentation-writer/ATTRIBUTION.md: sha256:b6a6d5274005d7ed96873605c7f6bd7bb70aa672a187f2bd6bbad72efdee8971
+    .claude/skills/documentation-writer/LICENSE.upstream: sha256:e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823
+    .claude/skills/documentation-writer/SKILL.md: sha256:7e8244988c9f4eb63bf8c0edf160578544621eb96e5e51e2d848f1401c5de8f1
+    .claude/skills/documentation-writer/VENDORED.json: sha256:99ba922c8de54eaee7713bb7135cf837f8aff5c4cd4c2e7f18666c2d63da7eb3
+    .claude/skills/merge-dependabot-prs/SKILL.md: sha256:7cdd0d7eefaf48d161c78101875f2b23cd9e93e4718a032ab5441bd67d373207
+    .claude/skills/merge-dependabot-prs/references/merging.md: sha256:c08aed4474ed8cc2134f1aea5a20f34c700e0bb57a8e80051d98eb13d41f0652
+    .claude/skills/merge-dependabot-prs/references/reporting.md: sha256:1377d18cb879582944e216fa69fe556c86ce3eef829442c8cc79cb304c43c64f
+    .claude/skills/merge-dependabot-prs/references/scope.md: sha256:e5153e0402e0e8829455847a80ab15673785b850d81bb3672682ab3290a03414
+    .claude/skills/merge-dependabot-prs/references/triage.md: sha256:fdf0e9beb7007db6de9fc710add00f92c0322e45c8f0a7f5f982049399470fc3
+    .claude/skills/probot-settings/SKILL.md: sha256:685ed618e900ea27933bebe2e0fda94f62d1f2cbab128ad287e16b9a40b8feb5
+    .claude/skills/probot-settings/references/addono-examples.md: sha256:79af0a8269997dcfdb4a7626f7419e3abfe31660db76c56e99003933f7dc4570
+    .claude/skills/probot-settings/references/sections-and-gotchas.md: sha256:d2d6c88fa9ec1ed2942d08fc99d5609752ff5a2ec0cd046cdb0a904ed9b05d4b
+    .claude/skills/probot-settings/references/security.md: sha256:9c2a14cad2b61894b38e4e66fb2c46dc9c920ac633dac327bcedd427c05e2f4e
+  content_hash: sha256:0de4ffd786a56c74e1600d6eb9ef4ef12b82f69a3f6b832d0871420131412147
+  skill_subset:
+  - documentation-writer
+  - merge-dependabot-prs
+  - probot-settings
+  declared_license: Apache-2.0
+deployments:
+- kind: project-relative
+  target: antigravity
+  value: .agents/skills/documentation-writer
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: null
+- kind: project-relative
+  target: antigravity
+  value: .agents/skills/documentation-writer/ATTRIBUTION.md
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:b6a6d5274005d7ed96873605c7f6bd7bb70aa672a187f2bd6bbad72efdee8971
+- kind: project-relative
+  target: antigravity
+  value: .agents/skills/documentation-writer/LICENSE.upstream
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823
+- kind: project-relative
+  target: antigravity
+  value: .agents/skills/documentation-writer/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:7e8244988c9f4eb63bf8c0edf160578544621eb96e5e51e2d848f1401c5de8f1
+- kind: project-relative
+  target: antigravity
+  value: .agents/skills/documentation-writer/VENDORED.json
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:99ba922c8de54eaee7713bb7135cf837f8aff5c4cd4c2e7f18666c2d63da7eb3
+- kind: project-relative
+  target: antigravity
+  value: .agents/skills/merge-dependabot-prs
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: null
+- kind: project-relative
+  target: antigravity
+  value: .agents/skills/merge-dependabot-prs/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:7cdd0d7eefaf48d161c78101875f2b23cd9e93e4718a032ab5441bd67d373207
+- kind: project-relative
+  target: antigravity
+  value: .agents/skills/merge-dependabot-prs/references/merging.md
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:c08aed4474ed8cc2134f1aea5a20f34c700e0bb57a8e80051d98eb13d41f0652
+- kind: project-relative
+  target: antigravity
+  value: .agents/skills/merge-dependabot-prs/references/reporting.md
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:1377d18cb879582944e216fa69fe556c86ce3eef829442c8cc79cb304c43c64f
+- kind: project-relative
+  target: antigravity
+  value: .agents/skills/merge-dependabot-prs/references/scope.md
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:e5153e0402e0e8829455847a80ab15673785b850d81bb3672682ab3290a03414
+- kind: project-relative
+  target: antigravity
+  value: .agents/skills/merge-dependabot-prs/references/triage.md
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:fdf0e9beb7007db6de9fc710add00f92c0322e45c8f0a7f5f982049399470fc3
+- kind: project-relative
+  target: antigravity
+  value: .agents/skills/probot-settings
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: null
+- kind: project-relative
+  target: antigravity
+  value: .agents/skills/probot-settings/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:685ed618e900ea27933bebe2e0fda94f62d1f2cbab128ad287e16b9a40b8feb5
+- kind: project-relative
+  target: antigravity
+  value: .agents/skills/probot-settings/references/addono-examples.md
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:79af0a8269997dcfdb4a7626f7419e3abfe31660db76c56e99003933f7dc4570
+- kind: project-relative
+  target: antigravity
+  value: .agents/skills/probot-settings/references/sections-and-gotchas.md
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:d2d6c88fa9ec1ed2942d08fc99d5609752ff5a2ec0cd046cdb0a904ed9b05d4b
+- kind: project-relative
+  target: antigravity
+  value: .agents/skills/probot-settings/references/security.md
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:9c2a14cad2b61894b38e4e66fb2c46dc9c920ac633dac327bcedd427c05e2f4e
+- kind: project-relative
+  target: claude
+  value: .claude/skills/documentation-writer
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/documentation-writer/ATTRIBUTION.md
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:b6a6d5274005d7ed96873605c7f6bd7bb70aa672a187f2bd6bbad72efdee8971
+- kind: project-relative
+  target: claude
+  value: .claude/skills/documentation-writer/LICENSE.upstream
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823
+- kind: project-relative
+  target: claude
+  value: .claude/skills/documentation-writer/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:7e8244988c9f4eb63bf8c0edf160578544621eb96e5e51e2d848f1401c5de8f1
+- kind: project-relative
+  target: claude
+  value: .claude/skills/documentation-writer/VENDORED.json
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:99ba922c8de54eaee7713bb7135cf837f8aff5c4cd4c2e7f18666c2d63da7eb3
+- kind: project-relative
+  target: claude
+  value: .claude/skills/merge-dependabot-prs
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/merge-dependabot-prs/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:7cdd0d7eefaf48d161c78101875f2b23cd9e93e4718a032ab5441bd67d373207
+- kind: project-relative
+  target: claude
+  value: .claude/skills/merge-dependabot-prs/references/merging.md
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:c08aed4474ed8cc2134f1aea5a20f34c700e0bb57a8e80051d98eb13d41f0652
+- kind: project-relative
+  target: claude
+  value: .claude/skills/merge-dependabot-prs/references/reporting.md
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:1377d18cb879582944e216fa69fe556c86ce3eef829442c8cc79cb304c43c64f
+- kind: project-relative
+  target: claude
+  value: .claude/skills/merge-dependabot-prs/references/scope.md
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:e5153e0402e0e8829455847a80ab15673785b850d81bb3672682ab3290a03414
+- kind: project-relative
+  target: claude
+  value: .claude/skills/merge-dependabot-prs/references/triage.md
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:fdf0e9beb7007db6de9fc710add00f92c0322e45c8f0a7f5f982049399470fc3
+- kind: project-relative
+  target: claude
+  value: .claude/skills/probot-settings
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/probot-settings/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:685ed618e900ea27933bebe2e0fda94f62d1f2cbab128ad287e16b9a40b8feb5
+- kind: project-relative
+  target: claude
+  value: .claude/skills/probot-settings/references/addono-examples.md
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:79af0a8269997dcfdb4a7626f7419e3abfe31660db76c56e99003933f7dc4570
+- kind: project-relative
+  target: claude
+  value: .claude/skills/probot-settings/references/sections-and-gotchas.md
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:d2d6c88fa9ec1ed2942d08fc99d5609752ff5a2ec0cd046cdb0a904ed9b05d4b
+- kind: project-relative
+  target: claude
+  value: .claude/skills/probot-settings/references/security.md
+  runtime: null
+  scope: project
+  owners:
+  - addono/skills
+  active_owner: addono/skills
+  content_hash: sha256:9c2a14cad2b61894b38e4e66fb2c46dc9c920ac633dac327bcedd427c05e2f4e
