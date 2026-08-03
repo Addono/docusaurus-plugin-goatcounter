@@ -11,7 +11,7 @@ repository:
   homepage: https://www.npmjs.com/package/docusaurus-plugin-goatcounter
   
   # A comma-separated list of topics to set on the repository
-  topics: docusaurus, docusaurus-v2, plugin, docusaurus-plugin, goatcounter, analytics, privacy
+  topics: docusaurus, docusaurus-v3, plugin, docusaurus-plugin, goatcounter, analytics, privacy
 
   # Either `true` to make the repository private, or `false` to make it public.
   private: false
@@ -37,7 +37,7 @@ repository:
 
   # Either `true` to allow merging pull requests with a merge commit, or `false`
   # to prevent merging pull requests with merge commits.
-  allow_merge_commit: true
+  allow_merge_commit: false
 
   # Either `true` to allow rebase-merging pull requests, or `false` to prevent
   # rebase-merging.
@@ -45,3 +45,25 @@ repository:
 
   # Either true to allow automatically deleting head branches when pull requests are merged, or false to prevent automatic deletion.
   delete_branch_on_merge: true
+
+# Labels: define labels for Issues and Pull Requests
+labels:
+  - name: bug
+    color: 'CC0000'
+  - name: feature
+    color: '336699'
+  - name: improvement
+    color: 'FFCC66'
+  - name: Low hanging fruit
+    description: Quick wins
+    color: '00FF99'
+
+  - name: automerge
+
+  - name: dependencies
+    color: '283AFC'
+  - name: yarn
+    color: 'DC9750'
+  - name: Github Actions
+    color: '2C1E10'
+    

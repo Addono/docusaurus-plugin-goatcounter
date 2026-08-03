@@ -19,7 +19,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-This plugin adds GoatCounter web analytics to your Docusaurus v2 project. It has zero dependencies as the only thing it needs to do is include the tracking script in your build outputs.
+This plugin adds GoatCounter web analytics to your Docusaurus v3 project. It has zero dependencies, the only thing this plugin does is including the tracking script in your production build outputs.
 
 ## 🚀 Install <a name = "install"></a>
 
@@ -33,7 +33,7 @@ yarn add docusaurus-plugin-goatcounter
 npm install docusaurus-plugin-goatcounter
 ```
 
-Then, configure Docusaurus to use your plugin by adding the following to `docusaurus.config.js`. Replace `your-goatcounter-code` with the identifier of your GoatCounter instance. E.g. if you acecss GoatCounter at https://acmecorp.goatcounter.com, then your code is `acmecorp`.
+Then, configure Docusaurus to use your plugin by adding the following to `docusaurus.config.js`. Replace `your-goatcounter-code` with the identifier of your GoatCounter instance. E.g. if you access GoatCounter at https://acmecorp.goatcounter.com, then your code is `acmecorp`.
 
 ```js
 module.exports = {
@@ -46,7 +46,8 @@ module.exports = {
 };
 ```
 
-When building your website, make sure that `NODE_ENV=production`, as the plugin will avoid injecting the Goatcounter tag in development environments.
+> [!WARNING]
+> **When building your website for production**, set `NODE_ENV=production`. **If not, the plugin will not inject the Goatcounter tag**, in order to prevent including non-production traffic in your Goatcounter statistics.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
